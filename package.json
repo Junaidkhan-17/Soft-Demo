@@ -4,10 +4,10 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "npx remix build",
+      "build": "node ./node_modules/@remix-run/dev/dist/cli.js build",
     "dev": "remix dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "remix-serve ./build/server/index.js",
+    "start": "node ./node_modules/@remix-run/serve/dist/cli.js build",
     "typecheck": "tsc",
     "format": "prettier --write src/**/*.{ts,tsx}"
   },
