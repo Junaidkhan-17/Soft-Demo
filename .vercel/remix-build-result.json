@@ -1,0 +1,390 @@
+{
+  "buildManifest": {
+    "serverBundles": {
+      "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs-eyJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    },
+    "routeIdToServerBundleId": {
+      "routes/blog-details-sidebar-right": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/blog-details-sidebar-left": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/blog-details": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/form-success": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/testimonial": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/single.rtl": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/download": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/features": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/account": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/contact": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/pricing": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/forgot": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/home-1": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/verify": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/_index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/about": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/error": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/login": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/reset": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/blog": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/rtl": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0"
+    },
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "app/root.tsx",
+        "config": {}
+      },
+      "routes/blog-details-sidebar-right": {
+        "file": "app/routes/blog-details-sidebar-right/index.tsx",
+        "id": "routes/blog-details-sidebar-right",
+        "path": "blog-details-sidebar-right",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/blog-details-sidebar-left": {
+        "file": "app/routes/blog-details-sidebar-left/index.tsx",
+        "id": "routes/blog-details-sidebar-left",
+        "path": "blog-details-sidebar-left",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/blog-details": {
+        "file": "app/routes/blog-details/index.tsx",
+        "id": "routes/blog-details",
+        "path": "blog-details",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/form-success": {
+        "file": "app/routes/form-success/index.tsx",
+        "id": "routes/form-success",
+        "path": "form-success",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/testimonial": {
+        "file": "app/routes/testimonial/index.tsx",
+        "id": "routes/testimonial",
+        "path": "testimonial",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/single.rtl": {
+        "file": "app/routes/single.rtl/index.tsx",
+        "id": "routes/single.rtl",
+        "path": "single/rtl",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/download": {
+        "file": "app/routes/download/index.tsx",
+        "id": "routes/download",
+        "path": "download",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/features": {
+        "file": "app/routes/features/index.tsx",
+        "id": "routes/features",
+        "path": "features",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/account": {
+        "file": "app/routes/account/index.tsx",
+        "id": "routes/account",
+        "path": "account",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/contact": {
+        "file": "app/routes/contact/index.tsx",
+        "id": "routes/contact",
+        "path": "contact",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/pricing": {
+        "file": "app/routes/pricing/index.tsx",
+        "id": "routes/pricing",
+        "path": "pricing",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/forgot": {
+        "file": "app/routes/forgot/index.tsx",
+        "id": "routes/forgot",
+        "path": "forgot",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/home-1": {
+        "file": "app/routes/home-1/index.tsx",
+        "id": "routes/home-1",
+        "path": "home-1",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/verify": {
+        "file": "app/routes/verify/index.tsx",
+        "id": "routes/verify",
+        "path": "verify",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/_index": {
+        "file": "app/routes/_index.tsx",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/about": {
+        "file": "app/routes/about/index.tsx",
+        "id": "routes/about",
+        "path": "about",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/error": {
+        "file": "app/routes/error/index.tsx",
+        "id": "routes/error",
+        "path": "error",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/login": {
+        "file": "app/routes/login/index.tsx",
+        "id": "routes/login",
+        "path": "login",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/reset": {
+        "file": "app/routes/reset/index.tsx",
+        "id": "routes/reset",
+        "path": "reset",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/blog": {
+        "file": "app/routes/blog/index.tsx",
+        "id": "routes/blog",
+        "path": "blog",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/rtl": {
+        "file": "app/routes/rtl/index.tsx",
+        "id": "routes/rtl",
+        "path": "rtl",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    }
+  },
+  "remixConfig": {
+    "appDirectory": "C:\\projects\\eSoft-Remix_v1.0\\eSoft-Remix.js\\app",
+    "basename": "/",
+    "buildDirectory": "C:\\projects\\eSoft-Remix_v1.0\\eSoft-Remix.js\\build",
+    "future": {
+      "v3_fetcherPersist": true,
+      "v3_relativeSplatPath": true,
+      "v3_throwAbortReason": true,
+      "v3_routeConfig": false,
+      "v3_singleFetch": true,
+      "v3_lazyRouteDiscovery": true,
+      "unstable_optimizeDeps": false
+    },
+    "manifest": false,
+    "publicPath": "/",
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.tsx"
+      },
+      "routes/blog-details-sidebar-right": {
+        "file": "routes/blog-details-sidebar-right/index.tsx",
+        "id": "routes/blog-details-sidebar-right",
+        "path": "blog-details-sidebar-right",
+        "parentId": "root"
+      },
+      "routes/blog-details-sidebar-left": {
+        "file": "routes/blog-details-sidebar-left/index.tsx",
+        "id": "routes/blog-details-sidebar-left",
+        "path": "blog-details-sidebar-left",
+        "parentId": "root"
+      },
+      "routes/blog-details": {
+        "file": "routes/blog-details/index.tsx",
+        "id": "routes/blog-details",
+        "path": "blog-details",
+        "parentId": "root"
+      },
+      "routes/form-success": {
+        "file": "routes/form-success/index.tsx",
+        "id": "routes/form-success",
+        "path": "form-success",
+        "parentId": "root"
+      },
+      "routes/testimonial": {
+        "file": "routes/testimonial/index.tsx",
+        "id": "routes/testimonial",
+        "path": "testimonial",
+        "parentId": "root"
+      },
+      "routes/single.rtl": {
+        "file": "routes/single.rtl/index.tsx",
+        "id": "routes/single.rtl",
+        "path": "single/rtl",
+        "parentId": "root"
+      },
+      "routes/download": {
+        "file": "routes/download/index.tsx",
+        "id": "routes/download",
+        "path": "download",
+        "parentId": "root"
+      },
+      "routes/features": {
+        "file": "routes/features/index.tsx",
+        "id": "routes/features",
+        "path": "features",
+        "parentId": "root"
+      },
+      "routes/account": {
+        "file": "routes/account/index.tsx",
+        "id": "routes/account",
+        "path": "account",
+        "parentId": "root"
+      },
+      "routes/contact": {
+        "file": "routes/contact/index.tsx",
+        "id": "routes/contact",
+        "path": "contact",
+        "parentId": "root"
+      },
+      "routes/pricing": {
+        "file": "routes/pricing/index.tsx",
+        "id": "routes/pricing",
+        "path": "pricing",
+        "parentId": "root"
+      },
+      "routes/forgot": {
+        "file": "routes/forgot/index.tsx",
+        "id": "routes/forgot",
+        "path": "forgot",
+        "parentId": "root"
+      },
+      "routes/home-1": {
+        "file": "routes/home-1/index.tsx",
+        "id": "routes/home-1",
+        "path": "home-1",
+        "parentId": "root"
+      },
+      "routes/verify": {
+        "file": "routes/verify/index.tsx",
+        "id": "routes/verify",
+        "path": "verify",
+        "parentId": "root"
+      },
+      "routes/_index": {
+        "file": "routes/_index.tsx",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/about": {
+        "file": "routes/about/index.tsx",
+        "id": "routes/about",
+        "path": "about",
+        "parentId": "root"
+      },
+      "routes/error": {
+        "file": "routes/error/index.tsx",
+        "id": "routes/error",
+        "path": "error",
+        "parentId": "root"
+      },
+      "routes/login": {
+        "file": "routes/login/index.tsx",
+        "id": "routes/login",
+        "path": "login",
+        "parentId": "root"
+      },
+      "routes/reset": {
+        "file": "routes/reset/index.tsx",
+        "id": "routes/reset",
+        "path": "reset",
+        "parentId": "root"
+      },
+      "routes/blog": {
+        "file": "routes/blog/index.tsx",
+        "id": "routes/blog",
+        "path": "blog",
+        "parentId": "root"
+      },
+      "routes/rtl": {
+        "file": "routes/rtl/index.tsx",
+        "id": "routes/rtl",
+        "path": "rtl",
+        "parentId": "root"
+      }
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": true
+  },
+  "viteConfig": {
+    "build": {
+      "assetsDir": "assets"
+    }
+  }
+}

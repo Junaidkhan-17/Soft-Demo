@@ -4,17 +4,18 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "node ./node_modules/@remix-run/dev/dist/cli.js build",
-    "dev": "remix dev",
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "node ./node_modules/@remix-run/serve/dist/cli.js build",
+    "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc",
     "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@remix-run/node": "^2.16.8",
-    "@remix-run/react": "^2.16.8",
-    "@remix-run/serve": "^2.16.8",
+    "@remix-run/node": "2.16.7",
+    "@remix-run/react": "2.16.7",
+    "@remix-run/serve": "2.16.7",
+    "@vercel/remix": "^2.16.7",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.7",
     "glightbox": "^3.3.1",
@@ -30,7 +31,7 @@
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.8",
+    "@remix-run/dev": "2.16.7",
     "@types/aos": "^3.0.7",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",

@@ -1,1 +1,0 @@
-import{n as r,r as a}from"./components-Dfbk34rr.js";import{c as t}from"./MobileMenu-BgW_Kcis.js";const n=({children:s})=>r.jsx(r.Fragment,{children:r.jsx(a.Suspense,{fallback:r.jsx(t,{}),children:s})});export{n as B};
